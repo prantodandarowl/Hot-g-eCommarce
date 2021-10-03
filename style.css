@@ -1,0 +1,94 @@
+.container{
+    margin-bottom: 200px;
+}
+
+.price{
+    color: darkgray;
+    padding-bottom: 10px;
+}
+
+.tag-word{
+    color: rgb(141, 130, 130);
+    padding-bottom: 10px;
+}
+
+
+
+.back{
+    background-image: url("../hot-gadgets/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.back2{
+    background-image: url("../hot-gadgets/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    
+}
+
+.just{
+
+    display: flex;
+    justify-content: end;
+
+}
+.cat{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.cardd {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .cardd button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .cardd button:hover {
+    opacity: 0.7;
+  }
+
+
+.tag-un{
+    padding-bottom: 50px;
+}
+
+.card2 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .footer{
+      display: flex;
+      justify-content: center;
+  }
